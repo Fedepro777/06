@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo cajas</title>
+    <style>
+        .box {
+            background-color: rgb(136, 136, 136);
+            /*ancho*/ width: 200px;
+            /*alto*/ height: 200px;
+            text-align: center;
+
+            /*borde*/
+
+            /*en conjunto*/
+            border: 2px solid red
+                /*tamaño, tipo, color*/
+            ;
+
+
+            /*individual*/
+            border: 5px solid red;
+            border-style: inset;
+            border-color: aqua;
+
+            /*por cada lado*/
+            border-top: 5px solid black;
+            border-bottom: 5px solid red;
+
+            /* la caja tiene 4 lados
+            arriba top 
+            derecha right
+            abajo bottom 
+            izquierda left */
+
+            /* padding o relle entre el borde y contenido*/
+            padding: 25px;
+            /*cuando hay un solo valor se lo aplico a los 4 lados*/
+            padding-left: 25px;/padding-top padding-bottom margin: 50px;
+            margin-left: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caja">
+        cet30
+    </div>
+
+    <div class="box">
+        <div class="a">
+            A
+        </div>
+        <div class="b">
+            B
+        </div>
+
+    </div>
+
+</body>
+
+</html>
