@@ -1,3 +1,17 @@
-p{
-    color: #2ff3d9;
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
 }
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}p {
+    font-style: italic;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    }
